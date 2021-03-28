@@ -15,6 +15,48 @@
 .modal-2VIBV8.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y { background-color: #1A1C1E; }
 .modal-2VIBV8.root-1gCeng > .footer-2gL1pp { background-color: #151718; }
 
+/* makes some areas use less space, code taken from smolcord by Yellowsink */
+
+/* channel list */
+.content-3YMskv .containerDefault--pIXnN .wrapper-2jXpOf {
+	padding: 0;
+}
+.content-3YMskv .containerDefault-3tr_sE {
+	padding-top: .5rem;
+}
+/* server/channel name */
+.header-2V-4Sw, .title-3qD0b- {
+	height: 2.5rem;
+}
+/* inbox popout */
+.recentMentionsPopout-3rCiI6 .header-ykumBX {
+	height: 3rem;
+	min-height: 3rem;
+	padding-top: .5rem;
+	padding-bottom: 0;
+}
+/* user popout */
+.userPopout-3XzG_A {
+	max-height: calc(100vh - 5rem);
+}
+.userPopout-3XzG_A .activityUserPopout-2yItg2,
+  .userPopout-3XzG_A .body-3iLsc4 {
+	padding: .75rem;
+}
+.userPopout-3XzG_A .textarea-2r0oV8 {
+	height: calc(34px / 1.5) !important;
+}
+.userPopout-3XzG_A .headerTop-3C2Zn0 {
+	padding: 0.5rem;
+	flex-flow: row wrap;
+}
+.userPopout-3XzG_A .headerTop-3C2Zn0 .avatarWrapperNormal-3wFMbf {
+	margin: 0 .5rem 0 0;
+}
+.userPopout-3XzG_A .headerTop-3C2Zn0 .headerTag-2pZJzA, .userPopout-3XzG_A .headerTop-3C2Zn0 .customStatus-1bh2V9 {
+	margin-top: .5rem;
+}
+
 /* snippets taken from the powercord community, each having the id to the original message */
 
 /* Separate the channels list from the chat box. - 755166410824482937 */
@@ -56,7 +98,7 @@
 .barButtonIcon-3t4V3d{
     visibility: visible;
     padding:11px;
-    background-color: var(--background-tertiary);
+    background-color: #0F1011;
     border-radius: 50%;
 }
 /* Make color of hovered context menu button rounded - 795425339995455519 */
@@ -65,15 +107,43 @@
 ​.item-1tOPte, .menu-3sdvDG.styleFlexible-wGDiIL { border-radius: 20px; }
 .submenu-2-ysNh.menu-3sdvDG { border-radius: 21px; }
 .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j { left: -1.5px; }
-/* Modern embeds - 777954734865907762 */
-.embedFull-2tM8-- {
-  background: rgba(0,0,0,0.4);
-  border-left: 0px;
-  border-bottom: 10px solid;
-  border-radius: 10px;
-  box-shadow: var(--elevationHigh);
+/* Add transparency & blur to the loading screen - 824102340079648779 */
+.container-16j22k {
+  background-color: rgba(0,0,0,0.8);
+  backdrop-filter: blur(5px);
 }
-.embedFull-2tM8-- .grid-1nZz7S {
-  padding-top: 3px;
+/* Blurred see through settings - 822405626021675029 */
+.layers-3iHuyZ>.layer-3QrUeG:first-child{
+  transform: scale(1) !important;
+  opacity: 1 !important;
+}
+.layers-3iHuyZ>.layer-3QrUeG:nth-child(2),.perksModal-fSYqOq{
+  background-color: rgba(0, 0, 0, 0.5)!important;
+  backdrop-filter: blur(9px);
+}
+.contentRegionScroller-26nc1e,.contentRegion-3nDuYy,.standardSidebarView-3F1I7i,
+.sidebarRegionScroller-3MXcoP{
+  background: transparent;
+}
+/* Fix for see through settings (css above) - 822407939050176547 */
+.titleContainer-2CXtJo {
+  border-radius: 10px;
+  padding-top: 10px;
   padding-bottom: 10px;
+  top: 5px;
+}
+.header-2mZ9Ov {
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 5px;
+}
+/* User Area Thing - 785558147435593768 */
+.container-3baos1 .canCopy-2VBT7N.nameTag-3uD-yy {
+  display: none;
+}
+.container-3baos1 .flex-1xMQg5 {
+  flex-grow:1 !important;
+  justify-content:space-between;
+  margin:0 16px;
 }
