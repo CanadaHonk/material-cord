@@ -59,28 +59,6 @@
     background-color: var(--background-tertiary);
     border-radius: 50%;
 }
-/* only show the settings icon until hover - 821887263851675698 */
-.panels-j1Uci_>.container-3baos1>.flex-1xMQg5{
-    flex-direction: column;
-    bottom:3px;
-    left:195px;
-    position: absolute;
-    z-index: 1;
-    padding:5px;
-    padding-top:6px;
-    padding-left:6px;
-    background: var(--background-secondary-alt);
-    border-radius: 4px;
-}
-.panels-j1Uci_>.container-3baos1>.flex-1xMQg5>:not(:last-child){
-    display: none;
-}
-.panels-j1Uci_>.container-3baos1>.flex-1xMQg5:hover>:not(:last-child){
-    display: block;
-}
-.nameTag-3uD-yy {
-    margin-right: 25px;
-}
 /* Make color of hovered context menu button rounded - 795425339995455519 */
 .colorDefault-2K3EoJ { border-radius: 15px; }
 /* rounded context menu - 795136183021338654 */
