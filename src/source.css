@@ -1,0 +1,35 @@
+@import url("https://raw.githack.com/LuckFire/Theme-Source/main/src/source.css");
+/* forked off Theme-Source by LuckFire, amazing person */
+/* snippets taken from the powercord community, each having the id to the original message */
+
+/* Separate the channels list from the chat box. - 755166410824482937 */
+.sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
+    border-radius: 15px 15px 0 0 !important
+ }
+ 
+ .chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+    position: relative;
+    left: 5px;
+    padding-right: 5px
+ }
+/* Makes the search bar look like a basic toolbar icon - 811066953933914112 */
+.search-36MZv- {order: -1;}
+.searchBar-3dMhjb {
+    width: 28px;
+    transition: width 0.6s ease-in-out;
+    color:#fff;
+    background: none;
+}
+.focused-31_ccS .searchBar-3dMhjb,
+.open-6_Y_aH .searchBar-3dMhjb,
+.searchBar-3dMhjb:hover {
+    width: 240px;
+    background: #0F1011;
+}
+.icon-3cZ1F_{height: 24px;width: 24px;color:#b9bbbe;}
+.iconContainer-O4O2CN{bottom: 3px;}
+.search-36MZv-{margin-left: 0px;}
+/* Have the # symbol glow white when the channel is unread - 818383883870666772 */
+.modeUnread-1qO3K1>div>a>div>.icon-1DeIlz{
+  color:#b9bbbe;
+}

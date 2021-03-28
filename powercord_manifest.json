@@ -1,0 +1,10 @@
+{
+    "name": "material-cord",
+    "description": "Yet another dark Powercord theme, based off the colors of the GTK material-black (blueberry) theme.",
+    "version": "1.0.0",
+    "author": "Sneexy#2280",
+    "theme": "index.css",
+    "consent": "false",
+    "splashTheme": "splash.css",
+    "license": "MIT"
+}
