@@ -1,5 +1,20 @@
 @import url("https://raw.githack.com/LuckFire/Theme-Source/main/src/source.css");
 /* forked off Theme-Source by LuckFire, amazing person */
+
+/* popup/confirmation boxes */
+.theme-dark .message-2qRu38 { background-color: #1A1C1E; }
+.theme-dark .root-1gCeng { background-color: #1A1C1E; }
+.theme-dark .footer-2gL1pp { background-color: #151718; }
+/* reactions */
+.reactors-Blmlhw.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 { background-color: #1A1C1E; }
+.scroller-1-nKid.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 { background-color: #1A1C1E; }
+/* upload popup */
+.uploadModal-2ifh8j { background-color: #1A1C1E; }
+.footer-3mqk7D { background-color: #151718; }
+/* text channel creation */
+.modal-2VIBV8.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y { background-color: #1A1C1E; }
+.modal-2VIBV8.root-1gCeng > .footer-2gL1pp { background-color: #151718; }
+
 /* snippets taken from the powercord community, each having the id to the original message */
 
 /* Separate the channels list from the chat box. - 755166410824482937 */
@@ -32,4 +47,55 @@
 /* Have the # symbol glow white when the channel is unread - 818383883870666772 */
 .modeUnread-1qO3K1>div>a>div>.icon-1DeIlz{
   color:#b9bbbe;
+}
+/* mobile jump to present bar - 821960077132038184 */ 
+.jumpToPresentBar-G1R9s6{
+    visibility: hidden;
+    bottom:15px;
+}
+.barButtonIcon-3t4V3d{
+    visibility: visible;
+    padding:11px;
+    background-color: var(--background-tertiary);
+    border-radius: 50%;
+}
+/* only show the settings icon until hover - 821887263851675698 */
+.panels-j1Uci_>.container-3baos1>.flex-1xMQg5{
+    flex-direction: column;
+    bottom:3px;
+    left:195px;
+    position: absolute;
+    z-index: 1;
+    padding:5px;
+    padding-top:6px;
+    padding-left:6px;
+    background: var(--background-secondary-alt);
+    border-radius: 4px;
+}
+.panels-j1Uci_>.container-3baos1>.flex-1xMQg5>:not(:last-child){
+    display: none;
+}
+.panels-j1Uci_>.container-3baos1>.flex-1xMQg5:hover>:not(:last-child){
+    display: block;
+}
+.nameTag-3uD-yy {
+    margin-right: 25px;
+}
+/* Make color of hovered context menu button rounded - 795425339995455519 */
+.colorDefault-2K3EoJ { border-radius: 15px; }
+/* rounded context menu - 795136183021338654 */
+​.item-1tOPte, .menu-3sdvDG.styleFlexible-wGDiIL { border-radius: 20px; }
+.submenu-2-ysNh.menu-3sdvDG { border-radius: 21px; }
+.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j { left: -1.5px; }
+/* Modern embeds - 777954734865907762 */
+.embedFull-2tM8-- {
+  background: rgba(0,0,0,0.4);
+  border-left: 0px;
+  border-bottom: 10px solid;
+  border-radius: 10px;
+  box-shadow: var(--elevationHigh);
+}
+.embedFull-2tM8-- .grid-1nZz7S {
+  padding-top: 3px;
+  padding-bottom: 10px;
 }
