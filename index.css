@@ -26,20 +26,7 @@ _ __ ___   __ _| |_ ___ _ __(_) __ _| |       ___ ___  _ __ __| |
     --background-modifier-active: #1f1f22;
     --background-modifier-selected: #303032;
     --background-modifier-accent: #4f545c;
-    --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
-    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
     --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-    --channeltextarea-background: #40444b#1A1C1E;
+    --channeltextarea-background: #1A1C1E;
     --activity-card-background: #1A1C1E;
-    --deprecated-panel-background: #1A1C1E;
-    --deprecated-card-bg: #1A1C1E;
-    --deprecated-card-editable-bg: #1A1C1E;
-    --deprecated-store-bg: #1A1C1E;
-    --deprecated-quickswitcher-input-background: #1A1C1E;
-    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
-    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
-    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
-    --deprecated-text-input-border-hover: #040405;
-    --deprecated-text-input-border-disabled: #202225;
-    --deprecated-text-input-prefix: #dcddde
 }
