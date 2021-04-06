@@ -1,5 +1,7 @@
 @import url("https://raw.githack.com/LuckFire/Theme-Source/main/src/source.css");
+@import url("https://cainy-a.github.io/SmolCord/smol.theme.css");
 /* forked off Theme-Source by LuckFire, amazing person */
+/* "screw it, we're using all of the smolcord css" - ruben 2021 - https://github.com/cainy-a/SmolCord/ */
 
 /* popup/confirmation boxes */
 .theme-dark .message-2qRu38 { background-color: #1A1C1E; }
@@ -15,77 +17,8 @@
 .modal-2VIBV8.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y { background-color: #1A1C1E; }
 .modal-2VIBV8.root-1gCeng > .footer-2gL1pp { background-color: #151718; }
 
-/* makes some areas use less space, code taken from smolcord by Yellowsink */
-
-/* channel list */
-.content-3YMskv .containerDefault--pIXnN .wrapper-2jXpOf {
-	padding: 0;
-}
-.content-3YMskv .containerDefault-3tr_sE {
-	padding-top: .5rem;
-}
-/* server/channel name */
-.header-2V-4Sw, .title-3qD0b- {
-	height: 2.5rem;
-}
-/* inbox popout */
-.recentMentionsPopout-3rCiI6 .header-ykumBX {
-	height: 3rem;
-	min-height: 3rem;
-	padding-top: .5rem;
-	padding-bottom: 0;
-}
-/* user popout */
-.userPopout-3XzG_A {
-	max-height: calc(100vh - 5rem);
-}
-.userPopout-3XzG_A .activityUserPopout-2yItg2,
-  .userPopout-3XzG_A .body-3iLsc4 {
-	padding: .75rem;
-}
-.userPopout-3XzG_A .textarea-2r0oV8 {
-	height: calc(34px / 1.5) !important;
-}
-.userPopout-3XzG_A .headerTop-3C2Zn0 {
-	padding: 0.5rem;
-	flex-flow: row wrap;
-}
-.userPopout-3XzG_A .headerTop-3C2Zn0 .avatarWrapperNormal-3wFMbf {
-	margin: 0 .5rem 0 0;
-}
-.userPopout-3XzG_A .headerTop-3C2Zn0 .headerTag-2pZJzA, .userPopout-3XzG_A .headerTop-3C2Zn0 .customStatus-1bh2V9 {
-	margin-top: .5rem;
-}
-
 /* snippets taken from the powercord community, each having the id to the original message */
 
-/* Separate the channels list from the chat box. - 755166410824482937 */
-.sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
-    border-radius: 15px 15px 0 0 !important
- }
- 
- .chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
-    position: relative;
-    left: 5px;
-    padding-right: 5px
- }
-/* Makes the search bar look like a basic toolbar icon - 811066953933914112 */
-.search-36MZv- {order: -1;}
-.searchBar-3dMhjb {
-    width: 28px;
-    transition: width 0.6s ease-in-out;
-    color:#fff;
-    background: none;
-}
-.focused-31_ccS .searchBar-3dMhjb,
-.open-6_Y_aH .searchBar-3dMhjb,
-.searchBar-3dMhjb:hover {
-    width: 240px;
-    background: #0F1011;
-}
-.icon-3cZ1F_{height: 24px;width: 24px;color:#b9bbbe;}
-.iconContainer-O4O2CN{bottom: 3px;}
-.search-36MZv-{margin-left: 0px;}
 /* Have the # symbol glow white when the channel is unread - 818383883870666772 */
 .modeUnread-1qO3K1>div>a>div>.icon-1DeIlz{
   color:#b9bbbe;
