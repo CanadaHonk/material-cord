@@ -1,6 +1,5 @@
 @import url("https://luckfire.github.io/theme-source/src/css-compile/ThemeSource-Compiled.css");
 /* forked off Theme-Source by LuckFire, amazing person */
-/* "screw it, we're using all of the smolcord css" - ruben 2021 - https://github.com/cainy-a/SmolCord/ */
 /* "ruben no u cannot steal code!!!1!! - kixty 2021" /*
 
 /* popup/confirmation boxes */
@@ -67,10 +66,17 @@
 }
 /* User Area Thing - 785558147435593768 */
 .container-3baos1 {
-   background-color: #0F1011;
+   background-color: #121314;
    margin-bottom: 0px;
+   padding: 0 55px;
 }
-/* Text Area Thing */
-.scrollableContainer-2NUZem {
-   background-color: #000000;
+.activityPanel-28dQGo {
+    background-color: #121314;
+}
+/* no scrollbar */
+::-webkit-scrollbar-thumb {
+    display: none !important;
+}
+::-webkit-scrollbar-track {
+    display: none !important;
 }

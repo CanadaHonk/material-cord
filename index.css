@@ -23,9 +23,8 @@ _ __ ___   __ _| |_ ___ _ __(_) __ _| |       ___ ___  _ __ __| |
     --background-accent: #3D89C9;
     --background-floating: #18191c;
     --background-modifier-hover: #141416;
-    --background-modifier-active: #1f1f22;
-    --background-modifier-selected: #303032;
-    --background-modifier-accent: #4f545c;
+    --background-modifier-active: #080808;
+    --background-modifier-selected: #000000;
     --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
     --channeltextarea-background: #000000;
     --activity-card-background: #1A1C1E;
