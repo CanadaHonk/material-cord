@@ -27,6 +27,6 @@ _ __ ___   __ _| |_ ___ _ __(_) __ _| |       ___ ___  _ __ __| |
     --background-modifier-selected: #303032;
     --background-modifier-accent: #4f545c;
     --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-    --channeltextarea-background: #1A1C1E;
+    --channeltextarea-background: #000000;
     --activity-card-background: #1A1C1E;
 }

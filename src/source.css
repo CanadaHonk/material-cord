@@ -2,6 +2,7 @@
 @import url("https://cainy-a.github.io/SmolCord/smol.theme.css");
 /* forked off Theme-Source by LuckFire, amazing person */
 /* "screw it, we're using all of the smolcord css" - ruben 2021 - https://github.com/cainy-a/SmolCord/ */
+/* "ruben no u cannot steal code!!!1!! - kixty 2021" /*
 
 /* popup/confirmation boxes */
 .theme-dark .message-2qRu38 { background-color: #1A1C1E; }
@@ -34,12 +35,6 @@
     background-color: #0F1011;
     border-radius: 50%;
 }
-/* Make color of hovered context menu button rounded - 795425339995455519 */
-.colorDefault-2K3EoJ { border-radius: 15px; }
-/* rounded context menu - 795136183021338654 */
-​.item-1tOPte, .menu-3sdvDG.styleFlexible-wGDiIL { border-radius: 20px; }
-.submenu-2-ysNh.menu-3sdvDG { border-radius: 21px; }
-.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j { left: -1.5px; }
 /* Add transparency & blur to the loading screen - 824102340079648779 */
 .container-16j22k {
   background-color: rgba(0,0,0,0.8);
@@ -72,11 +67,7 @@
   top: 5px;
 }
 /* User Area Thing - 785558147435593768 */
-.container-3baos1 .canCopy-2VBT7N.nameTag-3uD-yy {
-  display: none;
-}
-.container-3baos1 .flex-1xMQg5 {
-  flex-grow:1 !important;
-  justify-content:space-between;
-  margin:0 16px;
+.container-3baos1 {
+   background-color: #0F1011;
+   margin-bottom: 0px;
 }
