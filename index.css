@@ -23,6 +23,7 @@ _ __ ___   __ _| |_ ___ _ __(_) __ _| |       ___ ___  _ __ __| |
     --background-accent: #3D89C9;
     --background-floating: #181a1b;
     --background-modifier-hover: #1d1f22;
+    --background-modifier-active: #3a3f44;
     --background-modifier-selected: #2e3236;
     --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
     --activity-card-background: #1A1C1E;
