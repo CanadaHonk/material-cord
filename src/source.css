@@ -72,10 +72,6 @@
 .activityPanel-28dQGo {
     background-color: #121314;
 }
-/* textarea thing */
-.scrollableContainer-2NUZem {
-  background-color: #2e3236;
-}
 /* no scrollbar */
 ::-webkit-scrollbar-thumb {
     display: none !important;
