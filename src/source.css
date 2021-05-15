@@ -63,7 +63,7 @@
   padding-bottom: 10px;
   top: 5px;
 }
-/* User Area Thing */
+/* userarea Thing */
 .container-3baos1 {
    background-color: #121314;
    margin-bottom: 0px;
@@ -71,6 +71,10 @@
 }
 .activityPanel-28dQGo {
     background-color: #121314;
+}
+/* textarea thing */
+.scrollableContainer-2NUZem {
+  background-color: #2e3236;
 }
 /* no scrollbar */
 ::-webkit-scrollbar-thumb {
